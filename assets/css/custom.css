@@ -1,0 +1,20 @@
+/* Sovrascrittura per sfondo nero */
+#bg {
+    background-color: #000000 !important;
+}
+
+#bg:before, 
+#bg:after {
+    display: none !important;
+}
+
+body {
+    background: #000000 !important;
+}
+
+/* Rimozione dell'overlay per gli elementi immagine */
+.image:before {
+    background-image: none !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+}

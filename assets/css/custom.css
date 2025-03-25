@@ -1,6 +1,6 @@
-/* Sovrascrittura per sfondo nero */
+/* Blueprint theme - sostituisce lo sfondo nero con il Blueprint Blue */
 #bg {
-    background-color: #000000 !important;
+    background-color: #104E8B !important;
 }
 
 #bg:before, 
@@ -9,12 +9,19 @@
 }
 
 body {
-    background: #000000 !important;
+    background: #104E8B !important;
 }
 
-/* Rimozione dell'overlay per gli elementi immagine */
-.image:before {
-    background-image: none !important;
-    background-color: transparent !important;
-    opacity: 1 !important;
+/* Opzionale: aggiusta i colori di alcuni elementi per coordinarli */
+.button {
+    box-shadow: inset 0 0 0 1px #ffffff !important;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.075) !important;
+}
+
+.button.primary {
+    background-color: #ffffff !important;
+    color: #104E8B !important;
 }

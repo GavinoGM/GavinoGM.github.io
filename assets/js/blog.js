@@ -89,7 +89,7 @@ function fetchMediumFeed(container) {
                         <h4>${title}</h4>
                         <span class="blog-post-date">${formattedDate}</span>
                         <p class="blog-post-excerpt">${excerpt}</p>
-                        <a href="${link}" target="_blank" class="read-more">Leggi l'articolo completo</a>
+                        <a href="${link}" target="_blank" class="read-more">Read full article</a>
                     </div>
                 `;
             }
@@ -178,7 +178,7 @@ function fetchSubstackFeed(container) {
                         <h4>${title}</h4>
                         <span class="blog-post-date">${formattedDate}</span>
                         <p class="blog-post-excerpt">${excerpt}</p>
-                        <a href="${link}" target="_blank" class="read-more">Leggi l'articolo completo</a>
+                        <a href="${link}" target="_blank" class="read-more">Read full article</a>
                     </div>
                 `;
             }
